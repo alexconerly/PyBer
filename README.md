@@ -4,7 +4,7 @@
 
 The purpose of this project was to assist a python-based, ride-sharing app company called “Pyber” in understanding and visualizing trends in previously collected ride-sharing data so that the company may implement this acquired knowledge for improving resource allocation decisions.
 
-To perform the analysis, two CSV files, one of "city data" and the other of "ride data", were merged and analyzed using a variety of dependencies within a Jupiter notebook using python programming language.  The merged data was then split into three new DataFrames based on “city type” to compare how urban, suburban, and rural areas correlated with the total and average number of fares, total and average number of rides, and the total and average number of drivers in each city type.  This process involved exploratory data analysis techniques, the creation of statistical summaries, and the incorporation of a wide variety of charts to aid the company in visualizing trends.
+To perform the analysis, two CSV files, one of "city data" and the other of "ride data", were merged and analyzed using a variety of dependencies within a Jupyter notebook using python programming language.  The merged data was then split into three new DataFrames based on “city type” to compare how urban, suburban, and rural areas correlated with the total and average number of fares, total and average number of rides, and the total and average number of drivers in each city type.  This process involved exploratory data analysis techniques, the creation of statistical summaries, and the incorporation of a wide variety of charts to aid the company in visualizing trends.
 
 ---------------------------------------------
 ## Resources:
@@ -17,7 +17,7 @@ Matplotlib 3.2.2, Numpy 1.18.5, Pandas 1.0.5, PySci 1.5.0
 
 ## Results:
 
-As a result of the analysis, it is clear that city type (urban, suburban, or rural) had an affect on the totals and averages regarding fares, rides, and drivers.  For instance, the average fare, both per ride and per driver, were lower in the urban cities than otherwise.  On the other hand, the urban cities had more total drivers and riders overall which produced more total revenue in fares than rural and suburban cities combined.  Interestingly, the rural areas produced the highest fare per driver.  Also, the urban cities were unique in that they exhibited more total drivers than total rides.
+As a result of the analysis, it is clear that city type (urban, suburban, or rural) had an affect on the totals and averages regarding fares, rides, and drivers.  For instance, the average fare, both per ride and per driver, were lower in the urban cities than otherwise.  On the other hand, the urban cities had more total drivers and total riders overall which produced more total revenue in fares than rural and suburban cities combined.  Interestingly, the rural areas produced the highest fare per driver.  Also, the urban cities were unique in that they exhibited more total drivers than total rides.  Urban cities also had the lowest average fare per ride and rural cities had the highest.
 
 -----------------------------------------------
 
